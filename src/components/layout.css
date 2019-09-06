@@ -19,6 +19,7 @@ a {
   background: url('../images/wallpaper3.jpg');
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 .HeroGroup {
   max-width: 500px;
@@ -88,4 +89,10 @@ opacity: 1;
 transform: translateY(0px);
 }
 
+}
+
+.Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
